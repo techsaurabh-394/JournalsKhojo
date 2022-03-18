@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+    background: url('https://cdn.pixabay.com/photo/2020/05/16/16/43/book-5178205__480.jpg') no-repeat center center/cover;
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.cen {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:87%;
+}
+.cent {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.cente{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+<body>
+    <div class="about-section">
+        <h1>About Us</h1>
+        <p>Some text about who we are and what we do.</p>
+        <p>Resize the browser window to see that this page is responsive by the way.</p>
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+
+            <div class="container">
+              <h2>Ankita Pandey</h2>
+              <p class="title">Founder</p>
+              <img src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.6435-9/71886474_2402434013139865_6797769649913069568_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=174925&_nc_ohc=FXPHNFBBnv0AX8xxZIA&_nc_ht=scontent.fdel3-2.fna&oh=00_AT_BRP4rVhZkogoony_yDyJ8A5hkQQ563ZANRNR8gl9gLQ&oe=6255A23E" alt="" class="center">
+              <p>pandeyankita.2201@gmail.com</p>
+              <p><a class="button" href= "mailto:pandeyankita.2201@gmail.com">Contact</button></a></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <h2>Manish Pathak</h2>
+              <p class="title">CEO</p>
+              <img src="https://scontent.fdel3-3.fna.fbcdn.net/v/t31.18172-8/23847329_1595068060553459_2753868795201481824_o.jpg?_nc_cat=111&ccb=1-5&_nc_sid=174925&_nc_ohc=96QsbsPp60sAX9Q8z96&_nc_ht=scontent.fdel3-3.fna&oh=00_AT_174U4O7sD7Orq9JFZ2zumKGD-UE23qbcO-jvB0Mhxtg&oe=62581E86" alt="" class="cen">
+              <p>pathakmanish31@gmail.com</p>
+              <p><a class="button" href= "mailto:pathakmanish31@gmail.com">Contact</button></a></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            
+            <div class="container">
+              <h2>Saurabh Pathak</h2>
+              <p class="title">Designer</p>
+              
+              
+              <img src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.6435-9/117258668_2847353005590281_1856698749159952292_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=iyrtwvbaENoAX-C8SvE&_nc_ht=scontent.fdel3-2.fna&oh=00_AT_EuSk8CZ41FyY9uCa2d6O2W8kBGjgRBO1VzC7f--KpsQ&oe=62557C4B" alt="" class="cent">
+              <p>saurabhpathak394@gmail.com</p>
+              <p><a class="button" href= "mailto:saurabhpathak394@gmail.com">Contact</button></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+        
+            <div class="container">
+              <h2>Gaurav Pathak</h2>
+              <p class="title">Designer</p>
+              
+              <img src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.6435-9/125956049_1550966021771875_5051473135305991803_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_ohc=zqovZuTAo7YAX9mAIEz&_nc_ht=scontent.fdel3-2.fna&oh=00_AT_y-gC3rabnlU0KKclMGzNu9U_GRYpOqzt_OP4VjLeeOA&oe=62569993" alt="" class="cente" >
+              <p>gauravpathak346@gmail.com</p>
+              <p><a class="button" href= "mailto:gauravpathak346@gmail.com">Contact</button></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
